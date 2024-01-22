@@ -1,0 +1,20 @@
+[project]
+name = "MTGA_Draft_17Lands"
+version = "4.0-dev"
+description = "Default template for PDM package"
+authors = [
+    {name = "Shuai Zhang", email = "zhangshuai.ustc@gmail.com"},
+]
+dependencies = [
+    "pynput==1.7.6",
+    "ttkwidgets==0.13.0",
+    "numpy==1.24.4",
+    "pydantic==1.10.12",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
