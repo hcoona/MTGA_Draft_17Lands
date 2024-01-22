@@ -23,4 +23,5 @@ distribution = false
 [tool.pdm.dev-dependencies]
 test = [
     "pytest",
+    "pyinstaller",
 ]
