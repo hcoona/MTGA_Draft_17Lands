@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:7481592eff663f5cace8724b246266b6fec97ac7d7a8e2c01aee710aa787a79a"
+content_hash = "sha256:4f02319de0e8e2479e292dfb0583aacd60f53f8e9861d1e3379b44753c6d59b8"
 
 [[package]]
 name = "evdev"
@@ -15,6 +15,16 @@ groups = ["default"]
 marker = "\"linux\" in sys_platform"
 files = [
     {file = "evdev-1.6.1.tar.gz", hash = "sha256:299db8628cc73b237fc1cc57d3c2948faa0756e2a58b6194b5bf81dc2081f1e3"},
+]
+
+[[package]]
+name = "hdpitkinter"
+version = "1.0.3"
+summary = "Sharpen blurry Tkinter scaling on Windows 10 high DPI displays"
+groups = ["default"]
+files = [
+    {file = "hdpitkinter-1.0.3-py3-none-any.whl", hash = "sha256:7d1c596ac0ec9cc87b2b8cb208626d886971221b97e43779854e2f2a26ee0871"},
+    {file = "hdpitkinter-1.0.3.tar.gz", hash = "sha256:ddfb9c14f5e316d3511a1e908cf5f917e331eb22f9a008b0a08eedda5fef9eee"},
 ]
 
 [[package]]
