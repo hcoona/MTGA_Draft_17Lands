@@ -876,9 +876,9 @@ class FileExtractor:
                         elif ((key == constants.DATA_FIELD_ATA) or
                               (key == constants.DATA_FIELD_ALSA)):
                             color_data[colors][key] = round(
-                                float(card[value]), 2)
+                                float(card[value] if card[value] else 0.0), 2)
                         else:
-                            color_data[colors][key] = int(card[value])
+                            color_data[colors][key] = int(card[value] if card[value] else 0)
 
                 card_name = card[constants.DATA_FIELD_NAME]
 
